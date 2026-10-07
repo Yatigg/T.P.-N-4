@@ -1,0 +1,51 @@
+:root{
+--color-texto: #F0E6EF;
+--color-fondo: #9C89B8;
+--fuente: Copperplate, Papyrus, fantasy;
+--color-primario: #EFC3E6;
+--color-primario1: #ff74d4;
+--color-primario2: #fa449c;
+--color-header: #a56eaa; 
+}
+/* ===== ESTILOS GENERALES ===== */
+body {
+    #proyectos {
+        text-align: center;
+    }
+ font-family: var(--fuente);
+ color: var(--color-texto);
+ background-color: var(--color-fondo);
+ font-size: 16px;
+ line-height: 1.6;
+}
+ /* ===== TIPOGRAFÍA ===== */
+h1 {
+ font-size: 3rem;
+ color: var(--color-primario1);
+}
+h2 {
+ font-size: 1.5rem;
+ color: var(--color-primario);
+ margin-bottom: 12px;
+}
+h3 {
+ font-size: 1.15rem;
+ color: var(--color-texto);
+ margin-bottom: 8px;
+}
+a {
+ color: var(--color-primario2);
+ text-decoration: none;
+}
+/* ===== HEADER ===== */
+header {
+ background-color: var(--color-header);
+ color: rgb(30, 33, 248);
+ padding: 24px 32px;
+ text-align: center;
+}
+header h1 {
+ margin-bottom: 12px;
+}
+
+
